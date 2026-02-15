@@ -1,0 +1,33 @@
+weight = float(input("Введите вес (в килограммах): "))
+height = float(input("Введите рост (в метрах): "))
+
+bmi = weight / (height ** 2)
+
+print("Ваш BMI:", round(bmi, 2))
+
+if bmi < 18.5:
+    print("Недостаточный вес")
+elif bmi < 25:
+    print("Нормальный вес")
+elif bmi < 30:
+    print("Избыточный вес")
+else:
+    print("Ожирение")
+
+Американский вариант
+
+weight = float(input("Введите вес (в фунтах): "))
+height = float(input("Введите рост (в дюймах): "))
+
+bmi = (weight / (height ** 2)) * 703
+
+print("Ваш BMI:", round(bmi, 2))
+
+if bmi < 18.5:
+    print("Underweight")
+elif bmi < 25:
+    print("Normal weight")
+elif bmi < 30:
+    print("Overweight")
+else:
+    print("Obesity")
