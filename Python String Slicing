@@ -1,0 +1,42 @@
+'''text = "PythonProgramming"
+result = text [:6]
+print(result)'''
+
+
+'''text = "Hello"
+result = text[::-1]
+print(result)'''
+
+'''phrase = "MynameisAziza"
+result = phrase [:: 2]
+print(result)'''
+
+'''data = "MachineLearning"
+result = data [7:12]
+print(result)'''
+
+#строка[начало : конец : шаг]
+
+'''string = "abcdefg"
+first = string [0]
+last = string [-1]
+print(first, last)'''
+
+'''word = "Python"
+result = word [1:-1]
+print(result)'''
+
+'''code = "programming"
+result = code [::2]
+print(result)'''
+
+'''email = "student@university.com"
+result = email [8:18]
+print(result)'''
+
+palindrome = "madam"
+if palindrome == palindrome[::-1]:
+    print("Это палиндром")
+else:
+    print("Это не палиндром")
+🔹 Как это работает?
