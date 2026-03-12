@@ -1,0 +1,25 @@
+class Subject():
+
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    def show(self):
+        print(f"Subject: {self.name}")
+
+    def show_grade(self):
+        print(f"Grade: {self.grade}")
+
+
+math = Subject("Math", 5)
+english = Subject("English", 4)
+programming = Subject("Programming", 5)
+
+math.show()
+math.show_grade()
+
+english.show()
+english.show_grade()
+
+programming.show()
+programming.show_grade()
